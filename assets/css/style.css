@@ -1,0 +1,66 @@
+
+body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{ 
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 600px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+  .container1{
+    margin: auto;
+    margin:50px;
+    height: 500px;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: red;
+}
+.title{
+    color:rgb(220, 240, 255);
+    font-family: 'Wallpoet', cursive;;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.counterControl{
+  display: flex;
+  justify-content: center;
+  margin-top: 264px;
+}
+.bottonePiu{
+ margin-left: 80px;
+}
+.bottonePiu:hover{
+  opacity: 0.7;
+}
+.bottoneMeno{
+  margin-right: 80px;
+}
+.bottoneMeno:hover{
+  opacity: 0.7;
+}
+.bottoneReset{
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: -62px;
+}
+.bottoneReset:hover{
+  opacity: 0.7;
+}
+
+@media screen and (max-height:800px){
+  .container{height: 500px;}
+  .container1{height: 400px;}
+  .counterControl{margin-top: 165px;}
+}
